@@ -1,5 +1,15 @@
-body {
-    color:blue;
+body 
+{
+    color:rgb(4, 0, 255);
+    text-align: left;
+    font-family: "Arial";
+}
+#container
+{
+    wdth: 70%;
+    padding: 1em;
     text-align: center;
-    font-family: "arial";
+    border: 1px solid #DDD;
+    margin: 0 auto;
+    padding: 0.5em;
 }
