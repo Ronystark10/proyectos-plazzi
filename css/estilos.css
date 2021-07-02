@@ -1,15 +1,44 @@
-body 
+body
 {
-    color:rgb(174, 0, 255);
-    text-align: left;
-    font-family: "Arial";
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
+
+#cabecera
+{
+    background: rgb(79, 0, 99);
+    box-shadow: 0px 2px 20px 0px rgba(208, 0, 250, 0.5);
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container
 {
-    wdth: 70%;
-    padding: 1em;
+    width: 70%;
+    padding: 0;
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
     margin: 0 auto;
-    padding: 0.5em;
+}
+
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    padding: 1em;
 }
